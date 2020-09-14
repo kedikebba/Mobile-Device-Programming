@@ -7,9 +7,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.acticity_creat.*
 
-/**
- *   Created by zhangziyi on 9/3/20 11:27
- */
 
 class CreatAccountAcityity  : AppCompatActivity(){
 

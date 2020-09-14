@@ -9,9 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-/**
- *   Created by zhangziyi on 9/4/20 12:07
- */
+
 class ProductDetialAdapter() : RecyclerView.Adapter<ProductDetialAdapter.MyViewHoleder>(){
 
     private var list: MutableList<Product>? = null

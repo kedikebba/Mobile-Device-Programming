@@ -7,9 +7,6 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import kotlinx.android.synthetic.main.activity_productlist.*
 
-/**
- *   Created by zhangziyi on 9/4/20 11:43
- */
 class ProductDetailList : AppCompatActivity(){
     var list= mutableListOf<Product>()
     var adapter = ProductDetialAdapter()

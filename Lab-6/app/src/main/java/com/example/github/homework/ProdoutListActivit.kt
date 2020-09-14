@@ -9,9 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import kotlinx.android.synthetic.main.activity_productlist.*
 
-/**
- *   Created by zhangziyi on 9/3/20 12:46
- */
+
 class ProdoutListActivit : AppCompatActivity(),ItemClick{
 
     var list= mutableListOf<Product>()

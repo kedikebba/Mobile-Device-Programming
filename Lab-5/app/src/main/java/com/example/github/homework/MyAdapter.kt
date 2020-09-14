@@ -7,9 +7,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-/**
- *   Created by zhangziyi on 9/3/20 18:37
- */
+
 
 class MyAdapter  : RecyclerView.Adapter<MyAdapter.MyViewHolder>() {
 

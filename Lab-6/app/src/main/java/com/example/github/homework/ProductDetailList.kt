@@ -7,9 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_productdetaillist.*
 
-/**
- *   Created by zhangziyi on 9/4/20 11:43
- */
+
 class ProductDetailList : AppCompatActivity(),ItemClick{
     var list= mutableListOf<Product>()
     var adapter = ProductDetialAdapter()
