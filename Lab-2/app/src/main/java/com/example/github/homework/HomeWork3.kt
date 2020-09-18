@@ -13,8 +13,7 @@ import kotlinx.android.synthetic.main.table_item.*
 import kotlinx.android.synthetic.main.table_item.view.*
 
 
-
-class HomeWork4 : AppCompatActivity() {
+class HomeWork3 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +23,7 @@ class HomeWork4 : AppCompatActivity() {
 
     fun addTable(view : View) {
         val layout: View = LayoutInflater.from(applicationContext)
-            .inflate(R.layout.table_item, null) //布局打气筒获取单行对象
+            .inflate(R.layout.table_item, null)
         layout.tx_version.text = et_version.text.toString()
         layout.tx_code.text = et_code.text.toString()
         tab_layout.addView(layout)

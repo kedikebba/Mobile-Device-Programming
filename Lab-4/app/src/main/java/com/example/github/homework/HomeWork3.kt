@@ -13,7 +13,8 @@ import kotlinx.android.synthetic.main.table_item.*
 import kotlinx.android.synthetic.main.table_item.view.*
 
 
-class HomeWork2 : AppCompatActivity() {
+
+class HomeWork3 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
